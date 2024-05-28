@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "Oswold-bold";
+    src: url(../assets/fonts/Oswald/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-medium";
+    src: url(../assets/fonts/Roboto/Roboto-Medium.ttf);
+}

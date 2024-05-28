@@ -1,0 +1,666 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Oswold-bold";
+  src: url(../assets/fonts/Oswald/Oswald-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-regular";
+  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-medium";
+  src: url(../assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+header {
+  padding: 20px 0;
+}
+header .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container a img {
+  width: 100%;
+}
+header .container i {
+  font-size: 1.7rem;
+}
+
+main {
+  background-color: #adcce9;
+}
+main .container {
+  width: 80%;
+  margin: 0 auto;
+}
+main .container .intro-section {
+  padding: 20px 0 700px;
+  position: relative;
+  margin-bottom: 50px;
+}
+main .container .intro-section .intro-above {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .intro-section .intro-above h1 {
+  font-family: "Oswold-bold";
+  font-size: 4.5rem;
+  line-height: 4.7rem;
+  color: #ffffff;
+}
+main .container .intro-section .intro-above img {
+  width: 45%;
+}
+main .container .intro-section .corporate-img {
+  width: 70%;
+  position: absolute;
+  top: 380px;
+  z-index: 3;
+}
+main .container .intro-section .fa-circle {
+  position: absolute;
+  z-index: 5;
+  font-size: 15rem;
+  color: #ffffff;
+  top: 850px;
+  left: 50px;
+}
+main .container .intro-section .intro-text-container {
+  position: absolute;
+  z-index: 5;
+  top: 730px;
+  right: 100px;
+  background-color: #ffffff;
+  width: 40%;
+  padding: 30px;
+}
+main .container .intro-section .intro-text-container h2 {
+  font-family: "Oswold-bold";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  margin-bottom: 20px;
+}
+main .container .intro-section .intro-text-container p {
+  font-family: "Roboto-regular";
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+main .container .intro-section .intro-text-container span {
+  font-family: "Roboto-regular";
+  font-size: 1rem;
+}
+main .container .intro-section .intro-text-container span a {
+  color: #000000;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+main .container .intro-section .intro-text-container button {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  background-color: #478ac9;
+  padding: 20px 25px;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+main .container .intro-section .intro-text-container button:hover {
+  opacity: 0.8;
+}
+main .container .strategy-section {
+  padding: 40px 0 1050px;
+  position: relative;
+}
+main .container .strategy-section .buildings-img {
+  width: 70%;
+  position: absolute;
+  right: 0;
+}
+main .container .strategy-section .man-img {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 200px;
+  z-index: 3;
+}
+main .container .strategy-section .strategy-ul {
+  position: absolute;
+  z-index: 5;
+  top: 600px;
+  left: 100px;
+  list-style: none;
+  width: 91%;
+  display: flex;
+  justify-content: space-between;
+}
+main .container .strategy-section .strategy-ul li {
+  padding: 20px 20px 40px;
+  background-color: #ffffff;
+  width: 24%;
+  box-shadow: 0px 3px 11px -1px rgb(133, 129, 133);
+}
+main .container .strategy-section .strategy-ul li div {
+  width: 100px;
+  height: 100px;
+  background-color: #81acda;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 20px;
+}
+main .container .strategy-section .strategy-ul li div i {
+  font-size: 50px;
+  color: #ffffff;
+  margin: 0 auto;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+main .container .strategy-section .strategy-ul li h2 {
+  font-family: "Oswold-bold";
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+main .container .strategy-section .strategy-ul li p {
+  font-family: "Roboto-regular";
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+main .container .strategy-section span {
+  font-family: "Roboto-regular";
+  font-size: 1.1rem;
+  position: absolute;
+  top: 1020px;
+  left: 500px;
+}
+main .container .strategy-section span a {
+  color: #000000;
+}
+main .container .about-section {
+  padding: 30px 0 100px;
+  margin-bottom: 80px;
+}
+main .container .about-section .about-grid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-template-rows: repeat(3, auto);
+  width: 70%;
+}
+main .container .about-section .about-grid .about-number {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #ffffff;
+  padding: 30px;
+}
+main .container .about-section .about-grid .about-number h2 {
+  font-family: "Oswold-bold";
+  font-size: 100px;
+  color: #478ac9;
+}
+main .container .about-section .about-grid .about-header {
+  grid-column: 2/8;
+  grid-row: 1/2;
+  font-size: 70px;
+  font-family: "Oswold-bold";
+  padding-top: 55px;
+  margin-left: 20px;
+}
+main .container .about-section .about-grid .about-text {
+  font-family: "Roboto-regular";
+  grid-column: 1/4;
+  grid-row: 2/4;
+  font-size: 1.4rem;
+  padding: 20px 10px 20px 0;
+  line-height: 2.5rem;
+}
+main .container .about-section .about-grid .about-list {
+  grid-column: 4/8;
+  grid-row: 2/4;
+  background-color: #ffffff;
+  padding: 20px 70px 0 10px;
+}
+main .container .about-section .about-grid .about-list ul {
+  list-style: none;
+  padding: 40px 10px 0;
+}
+main .container .about-section .about-grid .about-list ul li {
+  margin-bottom: 15px;
+}
+main .container .about-section .about-grid .about-list ul li p {
+  font-size: 1.5rem;
+}
+main .container .about-section .about-grid .about-list ul li p span {
+  font-weight: bold;
+}
+main .container .designteam-section {
+  padding: 70px 0 800px;
+  position: relative;
+}
+main .container .designteam-section .designteam-leftimg {
+  width: 50%;
+  height: 650px;
+  position: absolute;
+  margin-right: 15px;
+  left: 0;
+  top: 0;
+}
+main .container .designteam-section .designteam-rightHome {
+  width: 22%;
+  height: 400px;
+  position: absolute;
+  top: -40px;
+  right: 300px;
+}
+main .container .designteam-section .designteam-besideHome {
+  width: 20%;
+  height: 300px;
+  position: absolute;
+  top: 59px;
+  right: 50px;
+}
+main .container .designteam-section .designteam-photo {
+  width: 48%;
+  position: absolute;
+  top: 400px;
+  right: 0;
+}
+main .container .designteam-section .designteam-cover {
+  width: 40%;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 5;
+  top: 200px;
+  left: 370px;
+  padding: 40px 60px;
+  text-align: center;
+}
+main .container .designteam-section .designteam-cover h2 {
+  font-family: "Oswold-bold";
+  font-size: 3rem;
+}
+main .container .designteam-section .designteam-cover p {
+  font-size: 1.1rem;
+  margin: 30px 0;
+}
+main .container .designteam-section .designteam-cover p a {
+  color: #000000;
+}
+main .container .designteam-section .designteam-cover button {
+  margin-top: 20px;
+  border: none;
+  background-color: #478ac9;
+  padding: 20px 25px;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+main .container .designteam-section .designteam-cover button:hover {
+  opacity: 0.8;
+}
+main .container .whatdo-section {
+  padding: 20px 0 50px;
+  margin-bottom: 50px;
+}
+main .container .whatdo-section .whatdo-grid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-template-rows: repeat(3, auto);
+  width: 70%;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-number {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #ffffff;
+  padding: 30px;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-number h2 {
+  font-family: "Oswold-bold";
+  font-size: 100px;
+  color: #478ac9;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-header {
+  grid-column: 2/8;
+  grid-row: 1/2;
+  font-size: 70px;
+  font-family: "Oswold-bold";
+  padding-top: 55px;
+  margin-left: 20px;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-text {
+  font-family: "Roboto-regular";
+  grid-column: 1/4;
+  grid-row: 2/4;
+  font-size: 1.4rem;
+  padding: 20px 10px 20px 0;
+  line-height: 2.5rem;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-list {
+  grid-column: 4/8;
+  grid-row: 2/4;
+  background-color: #ffffff;
+  padding: 20px 70px 0 10px;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-list ul {
+  list-style: none;
+  padding: 40px 10px 0;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-list ul li {
+  margin-bottom: 15px;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-list ul li p {
+  font-size: 1.5rem;
+}
+main .container .whatdo-section .whatdo-grid .whatdo-list ul li p span {
+  font-weight: bold;
+}
+main .container .mobileapp-section {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+main .container .mobileapp-section .mobileapp-left {
+  width: 50%;
+}
+main .container .mobileapp-section .mobileapp-left div {
+  background-color: #ffffff;
+  padding: 50px;
+  margin: 0 30px 30px 0;
+}
+main .container .mobileapp-section .mobileapp-left div h2 {
+  font-family: "Oswold-bold";
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+main .container .mobileapp-section .mobileapp-left div .mobileapp-text {
+  font-family: "Roboto-regular";
+  font-size: 1.3rem;
+  margin: 30px 0;
+}
+main .container .mobileapp-section .mobileapp-left div .freepik {
+  font-family: "Roboto-regular";
+  margin-bottom: 20px;
+}
+main .container .mobileapp-section .mobileapp-left div .freepik a {
+  color: #000000;
+}
+main .container .mobileapp-section .mobileapp-left div button {
+  margin-top: 20px;
+  border: none;
+  background-color: #478ac9;
+  padding: 20px 25px;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+main .container .mobileapp-section .mobileapp-left div button:hover {
+  opacity: 0.8;
+}
+main .container .mobileapp-section .mobileapp-left img {
+  width: 45%;
+  margin-left: 288px;
+}
+main .container .mobileapp-section .mobileapp-right {
+  width: 50%;
+}
+main .container .mobileapp-section .mobileapp-right .right-above {
+  width: 46%;
+  margin-bottom: 40px;
+}
+main .container .mobileapp-section .mobileapp-right .right-below {
+  width: 100%;
+  height: 445px;
+}
+main .container .service-section {
+  padding: 70px 0;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  width: 100%;
+}
+main .container .service-section .service-text {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+main .container .service-section .service-text span {
+  font-size: 0.9rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+main .container .service-section .service-text .service-text-header {
+  font-size: 70px;
+  font-family: "Oswold-bold";
+  line-height: 5rem;
+  margin: 20px 0;
+}
+main .container .service-section .service-text .service-alltext {
+  font-family: "Roboto-regular";
+  width: 90%;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+main .container .service-section .service-text .service-alltext a {
+  color: #000000;
+}
+main .container .service-section .service-team {
+  grid-column: 3/5;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+}
+main .container .service-section .service-woman {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  width: 100%;
+}
+main .container .service-section .service-type1 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: #ffffff;
+  padding: 60px 20px 0;
+  text-align: center;
+}
+main .container .service-section .service-type1 .setting-icon {
+  margin: 0 auto;
+  position: relative;
+  background-color: #adcce9;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+main .container .service-section .service-type1 .setting-icon i {
+  color: #ffffff;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  font-size: 4rem;
+}
+main .container .service-section .service-type1 h3 {
+  font-family: "Roboto-medium";
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+main .container .service-section .service-type1 p {
+  width: 92%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+main .container .service-section .service-type2 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  background-color: #81acda;
+  padding: 60px 20px 0;
+  text-align: center;
+}
+main .container .service-section .service-type2 .setting-icon {
+  margin: 0 auto;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+main .container .service-section .service-type2 .setting-icon i {
+  color: #adcce9;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  font-size: 4rem;
+}
+main .container .service-section .service-type2 h3 {
+  font-family: "Roboto-medium";
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+main .container .service-section .service-type2 p {
+  width: 92%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+main .container .end-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 40px;
+}
+main .container .end-section .helpus {
+  width: 50%;
+}
+main .container .end-section .helpus span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+main .container .end-section .helpus h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 5rem;
+  letter-spacing: 2px;
+}
+main .container .end-section .helpus .helpus-text {
+  font-family: "Roboto-regular";
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  margin: 30px 0;
+}
+main .container .end-section .helpus ul {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+main .container .end-section .helpus ul li {
+  margin-bottom: 10px;
+}
+main .container .end-section .helpus .helpus-support {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+main .container .end-section .contactus {
+  width: 50%;
+}
+main .container .end-section .contactus span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+main .container .end-section .contactus h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 4.3rem;
+  font-weight: bold;
+  line-height: 5rem;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+main .container .end-section .contactus form {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 70px 50px;
+}
+main .container .end-section .contactus form .form-name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+main .container .end-section .contactus form .form-name label {
+  font-size: 1.3rem;
+}
+main .container .end-section .contactus form .form-name input {
+  font-family: "Roboto-regular";
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #000000;
+}
+main .container .end-section .contactus form .form-message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+main .container .end-section .contactus form .form-message label {
+  font-size: 1.3rem;
+}
+main .container .end-section .contactus form .form-message textarea {
+  font-family: "Roboto-regular";
+  color: lightslategray;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #000000;
+}
+main .container .end-section .contactus form #submit {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #478ac9;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 60px;
+}
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .container .footer-text1 {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+footer .container .footer-text2 {
+  font-size: 0.8rem;
+}
+footer .container .footer-text2 a {
+  color: #adcce9;
+}
